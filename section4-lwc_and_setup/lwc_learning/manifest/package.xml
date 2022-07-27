@@ -30,7 +30,8 @@
     </types-->
 
     <types>
-        <members>helloWorld</members>
+        <!--members>helloWorld</members-->
+        <members>helloConditionalRendering</members>
         <name>LightningComponentBundle</name>
     </types>    
 
