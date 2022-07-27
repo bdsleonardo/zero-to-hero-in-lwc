@@ -31,7 +31,8 @@
 
     <types>
         <!--members>helloWorld</members-->
-        <members>helloConditionalRendering</members>
+        <!--members>helloConditionalRendering</members-->
+        <members>looping</members>
         <name>LightningComponentBundle</name>
     </types>    
 
