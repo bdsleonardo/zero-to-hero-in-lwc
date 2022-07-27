@@ -1,7 +1,7 @@
 <template>
+
     <!-- <div>{fullName}</div> -->
     <!-- <div>{obj.name}</div> -->
-
 
     <lightning-card  title="Two way data binding">
         <div class="slds-var-m-around_medium">
@@ -9,7 +9,7 @@
                     type="text" 
                     label="Enter Course Name" 
                     onchange={changeHandler}></lightning-input>
-            <div>{fullName} is a course of {title}</div>
+            <div><b>{fullName}</b> is a course of <b>{title}</b></div>
         </div>
     </lightning-card>
 
@@ -19,8 +19,15 @@
                     type="text" 
                     label="Enter City Name" 
                     onkeyup={trackHandler}></lightning-input>
-            <div>{address.city} is my City</div>
+            <div><b>{address.city}</b> is my City</div>
         </div>
-    </lightning-card>    
+    </lightning-card>
+    
+    <lightning-card  title="Getter Demo">
+        <div class="slds-var-m-around_medium">
+            <div>First user name is {firstUser}</div>
+            <div>Multiplication of {num1} and {num2} is <b>{multiply}</b></div>
+        </div>
+    </lightning-card>     
 
 </template>
